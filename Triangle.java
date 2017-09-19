@@ -1,9 +1,18 @@
-package cualquiernombre;
+
 
 public class Triangle extends Figura{
-    public abstract double area();
-    public Triangle (double b, double h){
-        double a = b*h/2;
-        Super(a)=a;
+
+    private double h;
+    private double c;
+
+    public Triangle(double h, double c) {
+        this.h = h;
+        this.c = c;
+    }
+
+    public double area(){
+
+        return this.h*this.c/2;
+
     }
 }

@@ -1,6 +1,5 @@
-package cualquiernombre;
 
-public class Rectangle {
+public class Rectangle extends Figura{
     private double l1;
     private double l2;
 
@@ -12,6 +11,5 @@ public class Rectangle {
     public double area(){
         return this.l1*this.l2;
     }
-
 
 }

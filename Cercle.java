@@ -1,7 +1,4 @@
-package TESTF;
-
 public class Cercle extends Figura{
-
 
     private double radi;
 
@@ -9,16 +6,9 @@ public class Cercle extends Figura{
         this.radi = radi;
     }
 
-    public double getRadi() {
-        return radi;
-    }
+    public double area() {
 
-    public void setRadi(double radi) {
-        this.radi = radi;
-    }
-
-    public double area(double radi) {
-        return Math.PI*2*radi;
+        return Math.PI*2*this.radi;
 
     }
 }
